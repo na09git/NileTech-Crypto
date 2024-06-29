@@ -6,7 +6,7 @@ const Footer = () => {
       column: "col-lg-2 col-md-3 col-sm-6 mb-30",
       items: [
         { label: "Home", href: "/" },
-        { label: "Pricing", href: "/pricing" },
+
         { label: "About us", href: "/about-v1" },
         { label: "Careers", href: "#" },
         { label: "Features", href: "#" },

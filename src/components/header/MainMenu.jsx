@@ -36,7 +36,7 @@ const MainMenu = () => {
           <li className="d-block d-lg-none">
             <div className="logo">
               <Link to="/" className="d-block">
-                <img src="/images/logo/logo_01.png" alt="logo" />
+                <img src="/images/logo/nile.png" alt="logo" />
               </Link>
             </div>
           </li>
@@ -45,24 +45,24 @@ const MainMenu = () => {
           <li className="nav-item dropdown mega-dropdown-md">
             <a
               // className="nav-link dropdown-toggle active-menu"
-              href="#"
+              href="/"
               role="button"
-              data-bs-toggle="dropdown"
-              data-bs-auto-close="outside"
+              // data-bs-toggle="dropdown"
+              // data-bs-auto-close="outside"
               aria-expanded="false"
               className={
                 menuItems.some((menu) =>
                   menu.items.some((elm) => isActive(elm.link))
                 )
-                  ? "nav-link dropdown-toggle active-menu"
-                  : "nav-link dropdown-toggle"
+                  ? "nav-link  active-menu"
+                  : "nav-link "
               }
 
-              // style={{color:'green'}}
+            // style={{color:'green'}}
             >
               Home
             </a>
-            <ul className="dropdown-menu">
+            {/* <ul className="dropdown-menu">
               <li>
                 <div className="row">
                   {menuItems.map((menu, index) => (
@@ -96,7 +96,7 @@ const MainMenu = () => {
                   ))}
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </li>
           {/* End li (home mega menu) */}
 
@@ -107,8 +107,8 @@ const MainMenu = () => {
                 pagesItems.some((menu) =>
                   menu.subItems.some((elm) => isActive(elm.link))
                 ) ||
-                isActive("/pages-menu/pricing") ||
-                isActive("/pages-menu/testimonials")
+                  isActive("/pages-menu/pricing") ||
+                  isActive("/pages-menu/testimonials")
                   ? "nav-link dropdown-toggle active-menu"
                   : "nav-link dropdown-toggle"
               }
@@ -142,9 +142,8 @@ const MainMenu = () => {
                       <li key={i}>
                         <Link
                           to={subMenu.link}
-                          className={`dropdown-item ${
-                            isActive(subMenu.link) ? "active" : ""
-                          }`}
+                          className={`dropdown-item ${isActive(subMenu.link) ? "active" : ""
+                            }`}
                         >
                           <span>{subMenu.title}</span>
                         </Link>
@@ -178,9 +177,8 @@ const MainMenu = () => {
                 <li key={index}>
                   <Link
                     to={item.link}
-                    className={`dropdown-item ${
-                      isActive(item.link) ? "active" : ""
-                    }`}
+                    className={`dropdown-item ${isActive(item.link) ? "active" : ""
+                      }`}
                   >
                     <span>{item.name}</span>
                   </Link>
@@ -204,16 +202,15 @@ const MainMenu = () => {
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
-              Blog
+              News
             </a>
             <ul className="dropdown-menu">
               {blogItems.map((blog, index) => (
                 <li key={index}>
                   <Link
                     to={blog.link}
-                    className={`dropdown-item ${
-                      isActive(blog.link) ? "active" : ""
-                    }`}
+                    className={`dropdown-item ${isActive(blog.link) ? "active" : ""
+                      }`}
                   >
                     <span>{blog.text}</span>
                   </Link>
@@ -243,9 +240,8 @@ const MainMenu = () => {
                 <li key={index}>
                   <Link
                     to={contact.link}
-                    className={`dropdown-item ${
-                      isActive(contact.link) ? "active" : ""
-                    }`}
+                    className={`dropdown-item ${isActive(contact.link) ? "active" : ""
+                      }`}
                   >
                     <span>{contact.text}</span>
                   </Link>
@@ -261,7 +257,7 @@ const MainMenu = () => {
         <div className="mobile-content d-block d-lg-none">
           <div className="d-flex flex-column align-items-center justify-content-center mt-70">
             <Link
-              to="/contact/contact-v1"
+              to="/contact/contact-v2"
               className="btn-twentyOne fw-500 tran3s"
             >
               Contact us

@@ -22,9 +22,8 @@ const DefaulHeader = () => {
 
   return (
     <header
-      className={`theme-main-menu sticky-menu theme-menu-eight border-bottom ${
-        navbar ? "fixed" : ""
-      }`}
+      className={`theme-main-menu sticky-menu theme-menu-eight border-bottom ${navbar ? "fixed" : ""
+        }`}
     >
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
@@ -41,7 +40,7 @@ const DefaulHeader = () => {
               <i className="bi bi-person" />
             </Link>
             <Link
-              to="/contact/contact-v1"
+              to="/contact/contact-v2"
               className="btn-twentyOne fw-500 tran3s d-none d-lg-block"
             >
               Contact us

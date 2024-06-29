@@ -2,18 +2,21 @@ const Block2 = () => {
   const data = [
     {
       icon: "/images/icon/icon_78.png",
-      title: "Best Exchange Rate",
-      description: "Convert data noise intelligent for quis lorem.",
+      title: "Discover the product",
+      description:
+        "Nile Technology Solution's Process - Product Discovery, Collaboration, and Unleashing Breakthrough Solutions.",
     },
     {
       icon: "/images/icon/icon_79.png",
-      title: "Protected by insurance",
-      description: "Convert data noise intelligent for quis lorem.",
+      title: "Free Consultations",
+      description:
+        "Nile Technology Solution's Process - Engage, Assess, Advise - Delivering Tailored Solutions through Free Consultations.",
     },
     {
       icon: "/images/icon/icon_81.png",
-      title: "Secure storage",
-      description: "Convert data noise intelligent for quis lorem.",
+      title: "Prototype Application",
+      description:
+        "Nile Technology Solution's Process - Ideate, Prototype, Refine - Creating Cutting-Edge Applications with Precision.",
     },
   ];
 

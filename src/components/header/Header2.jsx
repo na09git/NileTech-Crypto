@@ -22,9 +22,8 @@ const DefaulHeader = () => {
 
   return (
     <header
-      className={`theme-main-menu sticky-menu theme-menu-six ${
-        navbar ? "fixed" : ""
-      }`}
+      className={`theme-main-menu sticky-menu theme-menu-six ${navbar ? "fixed" : ""
+        }`}
     >
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
@@ -43,7 +42,7 @@ const DefaulHeader = () => {
               <span>login</span>
             </Link>
             <Link
-              to="/contact/contact-v3"
+              to="/contact/contact-v2"
               className="start-btn-one fs-18 fw-500 tran3s position-relative d-none d-lg-block"
             >
               Get Started

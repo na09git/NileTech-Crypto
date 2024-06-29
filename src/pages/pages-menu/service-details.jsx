@@ -2,7 +2,6 @@ import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
 import ProgressBar from "./service-details/ProgressBar";
-import Faq from "../../components/home-page/home-2/Faq";
 import Social from "./service-details/Social";
 import { Link } from "react-router-dom";
 

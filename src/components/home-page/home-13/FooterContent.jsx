@@ -5,7 +5,7 @@ const links = [
     title: "Links",
     links: [
       { title: "Home", url: "/" },
-      { title: "Pricing", url: "/pages-menu/pricing" },
+
       { title: "About us", url: "/pages-menu/about-us-v1" },
       { title: "Service", url: "/pages-menu/service-v1" },
       { title: "Blog", url: "/blog/blog-v1" },

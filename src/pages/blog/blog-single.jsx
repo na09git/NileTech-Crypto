@@ -23,12 +23,12 @@ const DynamicBlogDetails = () => {
     if (!id) <h1>Loading...</h1>;
     else setBlogItem(blogsData.find((item) => item.id == id));
 
-    return () => {};
+    return () => { };
   }, [id]);
 
   return (
     <>
-      <Seo pageTitle="Dynami Blog Details" />
+      <Seo pageTitle="Dynamic Blog Details" />
       {/* <!-- 
       =============================================
       Theme Default Menu

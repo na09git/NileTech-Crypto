@@ -7,11 +7,10 @@ const footerData = [
     className: "col-lg-3 col-sm-4 ms-auto mb-30",
     links: [
       { label: "Home", href: "/" },
-      { label: "Pricing", href: "/pages-menu/pricing" },
+
       { label: "About us", href: "/pages-menu/about-us-v1" },
       { label: "Careers", href: "/blog/blog-v2" },
       { label: "Features", href: "/pages-menu/service-v1" },
-      { label: "Demo the product", href: "/blog/blog-v3" },
     ],
   },
   {

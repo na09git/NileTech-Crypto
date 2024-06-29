@@ -6,7 +6,7 @@ const Footer = () => {
       title: "Links",
       links: [
         { label: "Home", url: "/" },
-        { label: "Pricing", url: "/pages-menu/pricing" },
+
         { label: "About us", url: "/pages-menu/about-us-v1" },
         { label: "Service", url: "/pages-menu/service-v1" },
         { label: "Blog", url: "/blog/blog-v1" },

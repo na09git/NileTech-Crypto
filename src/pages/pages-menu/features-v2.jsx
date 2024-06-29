@@ -6,7 +6,6 @@ import NewsLetter from "../../components/footer/NewsLetter";
 import Header2 from "../../components/header/Header2";
 import CallToActions from "../../components/feature-web-hosting/CallToActions";
 
-import IncludedPlan from "../../components/home-page/home-2/IncludedPlan";
 import Features from "../../components/feature-web-hosting/Features";
 import CountryList from "../../components/feature-web-hosting/CountryList";
 

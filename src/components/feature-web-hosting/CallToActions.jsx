@@ -22,13 +22,13 @@ const CallToActions = () => {
                 <div className="col-xl-6 col-lg-7">
                   <div className="d-sm-flex align-items-center justify-content-center justify-content-lg-end">
                     <Link
-                      to="/contact/contact-v3"
+                      to="/contact/contact-v2"
                       className="btn-line fw-500 tran3s position-relative me-sm-5"
                     >
                       Chat with a an Expert
                     </Link>
                     <Link
-                      to="/contact/contact-v3"
+                      to="/contact/contact-v2"
                       className="btn-solid fw-500 tran3s"
                     >
                       Get Started

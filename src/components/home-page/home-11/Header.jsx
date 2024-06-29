@@ -22,9 +22,8 @@ const Header = () => {
 
   return (
     <header
-      className={`theme-main-menu sticky-menu theme-menu-two ${
-        navbar ? "fixed" : ""
-      }`}
+      className={`theme-main-menu sticky-menu theme-menu-two ${navbar ? "fixed" : ""
+        }`}
     >
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">
@@ -41,7 +40,7 @@ const Header = () => {
               Login
             </Link>
             <Link
-              to="/contact/contact-v1"
+              to="/contact/contact-v2"
               className="contact-btn-three fs-17 fw-500 tran3s d-none d-lg-block"
             >
               Contact us

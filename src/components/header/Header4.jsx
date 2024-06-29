@@ -12,9 +12,9 @@ const Header4 = () => {
   };
 
   const languages = [
-    { code: "Fr", name: "French" },
-    { code: "In", name: "Indian" },
-    { code: "Ru", name: "Russian" },
+    { code: "En", name: "English" },
+    { code: "AO", name: "Afaan Oromoo" },
+    { code: "Am", name: "Amharic" },
   ];
 
   const changeBackground = () => {
@@ -34,9 +34,8 @@ const Header4 = () => {
 
   return (
     <header
-      className={`theme-main-menu sticky-menu theme-menu-five charity white-vr ${
-        navbar ? "fixed" : ""
-      }`}
+      className={`theme-main-menu sticky-menu theme-menu-five charity white-vr ${navbar ? "fixed" : ""
+        }`}
     >
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center">

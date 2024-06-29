@@ -85,13 +85,14 @@ const Crypto = () => {
             data-aos="fade-up"
           >
             <h2 className="main-title text-white">
-              Trusted <span>Cryptocurrency</span> Platform
+              Nile Technology Solution: <span>Innovative IT Solutions</span>
             </h2>
             <p className="text-white opacity-50 fs-20 pt-15">
-              jano has a variety of features that make it the best place to
-              start trading
+              Nile Technology Solution excels in providing tailored IT solutions, ensuring your
+              business operates efficiently and effectively.
             </p>
           </div>
+
           {/* /.title-style-nine */}
 
           <div className="row gx-xxl-5">

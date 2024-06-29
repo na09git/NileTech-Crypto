@@ -1,29 +1,31 @@
 const Faq = () => {
   const faqItems = [
     {
-      question: "What is crypto?",
+      question:
+        "What solutions does Nile Technology Solution offer for digitalizing businesses?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "Nile Technology Solution provides internationally validated solutions crafted for efficiency, sustainability, scalability, and alignment with business priorities. Our tailored approaches ensure optimal performance and growth, empowering businesses to thrive in the digital age.",
     },
     {
-      question: "How do you different criteria in your process?",
+      question:
+        "How does Nile Technology Solution ensure the efficiency and sustainability of operational processes?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "At Nile Technology Solution, we streamline operational processes through innovative technologies and strategic implementations. We optimize workflows, reduce redundancies, and enhance sustainability, fostering long-term operational excellence.",
     },
     {
-      question: "How can invest money here?",
+      question: "How does Nile Technology Solution support scalability and growth?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "Nile Technology Solution leverages scalable solutions that evolve with your business. From scalable software architectures to agile methodologies, we ensure your technology infrastructure grows seamlessly alongside your business objectives.",
     },
     {
-      question: "How can I trade my crypto into different currency?",
+      question: "How does Nile Technology Solution ensure alignment with business priorities?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "We collaborate closely with clients to understand their unique business objectives. By aligning our solutions with your priorities, we deliver tailored outcomes that drive measurable business success and efficiency.",
     },
     {
-      question: "How can I accept credit cards online?",
+      question: "Join Nile Technology Solution: Ignite your tech career. How can I apply?",
       answer:
-        "Duis aute irure dolor in reprehenderit in voluptate velit ess dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in culpa qui officia deserunt.",
+        "Joining Nile Technology Solution means joining a team committed to innovation and excellence. Explore career opportunities and embark on a rewarding journey in technology. Visit our careers page or reach out to us directly to learn more about joining Nile Technology Solution.",
     },
   ];
 
@@ -33,9 +35,8 @@ const Faq = () => {
         <div className="accordion-item" key={index}>
           <div className="accordion-header" id={`heading${index}`}>
             <button
-              className={`accordion-button ${
-                index === 2 ? "not-collapsed" : "collapsed"
-              }`}
+              className={`accordion-button ${index === 2 ? "not-collapsed" : "collapsed"
+                }`}
               type="button"
               data-bs-toggle="collapse"
               data-bs-target={`#collapse${index}`}
@@ -47,9 +48,8 @@ const Faq = () => {
           </div>
           <div
             id={`collapse${index}`}
-            className={`accordion-collapse collapse ${
-              index === 2 ? "show" : ""
-            }`}
+            className={`accordion-collapse collapse ${index === 2 ? "show" : ""
+              }`}
             aria-labelledby={`heading${index}`}
             data-bs-parent="#accordionOne"
           >
