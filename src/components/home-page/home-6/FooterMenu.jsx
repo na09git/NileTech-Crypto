@@ -49,12 +49,11 @@ const FooterLinks = () => {
               </Link>
             </div>
             <a href="#" className="email tran3s fs-18 mt-35 mb-15 md-mt-10">
-              januinc@company.com
+              niletech.co
             </a>
             <br />
             <a href="#" className="mobile tran3s fs-20 fw-500">
-              +757 699-4478
-            </a>
+              +251915137219            </a>
           </div>
           {footerData.map(({ title, className, links }) => (
             <div className={className} key={title}>

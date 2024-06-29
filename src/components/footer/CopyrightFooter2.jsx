@@ -77,13 +77,13 @@ const Footer = () => {
               Copyright © {new Date().getFullYear()}{" "}
               <a
                 style={{ color: "inherit" }}
-                href="https://themeforest.net/user/ib-themes"
+                href="https://niletech.co"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                ib-themes
+                Nile Technology Solution
               </a>
-              inc.
+              Plc.
             </p>
           </div>
         </div>
