@@ -72,9 +72,9 @@ const CopyrightFooter = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                elite-themes24
+                Nile Technology Solution
               </a>{" "}
-              inc.
+              Plc
             </p>
           </div>
         </div>

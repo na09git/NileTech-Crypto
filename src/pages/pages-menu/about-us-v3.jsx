@@ -271,7 +271,7 @@ const AboutUsV3 = () => {
                   rel="noopener noreferrer"
                   href="https://themeforest.net/user/elite-themes24"
                 >
-                  elite-themes24
+                  Nile Technology Solution Plc
                 </a>
               </p>
             </div>
