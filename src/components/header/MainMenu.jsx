@@ -62,41 +62,7 @@ const MainMenu = () => {
             >
               Home
             </a>
-            {/* <ul className="dropdown-menu">
-              <li>
-                <div className="row">
-                  {menuItems.map((menu, index) => (
-                    <div className="col-lg-4" key={index}>
-                      <div className="menu-column">
-                        <h6
-                          className={
-                            menu.items.some((elm) => isActive(elm.link))
-                              ? "mega-menu-title active-menu"
-                              : "mega-menu-title"
-                          }
-                        >
-                          {menu.title}
-                        </h6>
-                        <ul className="style-none mega-dropdown-list">
-                          {menu.items.map((item, index) => (
-                            <li key={index}>
-                              <Link
-                                to={item.link}
-                                className={`dropdown-item ${
-                                  isActive(item.link) ? "active" : ""
-                                }`}
-                              >
-                                <span>{item.title}</span>
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </li>
-            </ul> */}
+
           </li>
           {/* End li (home mega menu) */}
 
@@ -202,7 +168,40 @@ const MainMenu = () => {
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
-              News
+              About Us
+            </a>
+            <ul className="dropdown-menu">
+              {blogItems.map((blog, index) => (
+                <li key={index}>
+                  <Link
+                    to={blog.link}
+                    className={`dropdown-item ${isActive(blog.link) ? "active" : ""
+                      }`}
+                  >
+                    <span>{blog.text}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </li>
+
+
+
+          <li className="nav-item dropdown">
+            <a
+              // className="nav-link dropdown-toggle"
+              className={
+                blogItems.some((elm) => isActive(elm.link))
+                  ? "nav-link dropdown-toggle active-menu"
+                  : "nav-link dropdown-toggle"
+              }
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="outside"
+              aria-expanded="false"
+            >
+              Services
             </a>
             <ul className="dropdown-menu">
               {blogItems.map((blog, index) => (

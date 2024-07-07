@@ -22,9 +22,8 @@ const Header = () => {
 
   return (
     <header
-      className={`theme-main-menu sticky-menu theme-menu-one ${
-        navbar ? "fixed" : ""
-      }`}
+      className={`theme-main-menu sticky-menu theme-menu-one ${navbar ? "fixed" : ""
+        }`}
     >
       <div className="inner-content position-relative">
         <div className="d-flex align-items-center justify-content-between">

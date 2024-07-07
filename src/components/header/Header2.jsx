@@ -33,21 +33,7 @@ const DefaulHeader = () => {
             </Link>
           </div>
           {/* End logo */}
-          <div className="right-widget ms-auto d-flex align-items-center order-lg-3">
-            <Link
-              to="/login"
-              className="login-btn-two fw-500 d-flex align-items-center me-3 me-xl-5"
-            >
-              <img src="/images/icon/icon_62.svg" alt="icon" className="me-2" />
-              <span>login</span>
-            </Link>
-            <Link
-              to="/contact/contact-v2"
-              className="start-btn-one fs-18 fw-500 tran3s position-relative d-none d-lg-block"
-            >
-              Get Started
-            </Link>
-          </div>{" "}
+          {" "}
           {/* /.right-widget */}
           <MainMenu />
         </div>
